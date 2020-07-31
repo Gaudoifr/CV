@@ -7,7 +7,7 @@ import './complement.scss';
 const Complement = () => (
   <div id="Complement">
     <h1>Langues</h1>
-    <Segment>
+    <Segment className="segment">
       <ul>
         <li>Anglais <Progress percent={85} indicating>Professionnel</Progress></li>
         <li>Espagnol<Progress percent={40} indicating>Scolaire</Progress></li>
