@@ -1,0 +1,109 @@
+#header {
+  padding: 2em 0;
+  text-align: center;
+  color: white;
+  padding-top: 1em;
+  // background: #4F617B;
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  margin-bottom: 1em;
+
+  .header-maintitle {
+    font-size: 2em;
+  }
+
+  .header-name {
+    margin: 1em 0;
+    font-size: 2.5em;
+  }
+
+  .header-typewriter {
+    font-size: 2em;
+    .Typewriter__wrapper {
+      color: #B49776;
+    }
+  }
+
+  .header-links {
+    position: absolute;
+    right: 10em;
+    top: 5em;
+    .linkedin-icon {
+      font-size: 1.5em;
+      margin-bottom: 0.5em;
+      &:hover {
+        color: black;
+      }
+    }
+  }
+
+  .burger {
+    position: fixed;
+    left: 0.5em;
+    top: 1.1em;
+    z-index: 999;
+
+    .bm-burger-button {
+      width: 2em;
+      height: 1.4em;
+    }
+    .bm-burger-bars {
+      background-color: white;
+    }
+    /* Color/shape of burger icon bars on hover*/
+    .bm-burger-bars-hover {
+      background-color: #B49776;
+    }
+
+    .bm-item-list {
+      color: white;
+      padding: 0.8em;
+
+      a{
+        margin-bottom: 1em;
+      }
+    }
+    
+    .bm-menu {
+      background-color: #B49776;
+      padding: 2.5em 1.5em 0;
+      font-size: 1.3em;
+      text-align: center;
+      a:hover {
+        color: black;
+      }
+    }
+    .bm-overlay {
+      background: black;
+      width: 95% !important;
+    }
+    .bm-cross {
+      background: white;
+    }
+  }
+}
+
+@media(max-width: 750px) {
+  #header {
+    .header-links {
+      position: relative;
+      left: 1%;
+      top: 0;
+      margin: auto;
+      margin-top: 1em;
+      width: 50vw;
+
+      li{
+        text-align: center;
+        display: inline-block;
+      }
+      .linkedin-icon {
+        font-size: 1.5em;
+        margin-bottom: 0.5em;
+        &:hover {
+          color: black;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+#Experience {
+  margin-bottom: 1em;
+
+  h1{
+    text-align: center;
+    font-size: 2.5em;
+    margin: 1em auto;
+    color: #B49776;
+  }
+
+  .xp-cards {
+    text-align: center;
+    font-family: "Lato";
+
+    .cards {
+      justify-content: center;
+      .meta {
+        margin: 0.5em 0;
+      }
+    }
+    .exp {
+    color: black !important;
+      .dns-pic {
+        width: 200px !important;
+        margin-top: -1em !important;
+        margin-bottom: 1em !important;
+        margin-left: 1.2em !important;
+      }
+      .bnp-pic {
+        margin-top: 1em !important;
+        margin-bottom: 2.8em !important;
+      }
+    }
+  }
+}

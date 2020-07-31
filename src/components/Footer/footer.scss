@@ -1,0 +1,23 @@
+.footer {
+  margin-top: 5em;
+  margin-bottom: 2em;
+  font-weight: lighter;
+  font-size: 0.75em;
+  font-family: "Lato";
+  display: flex;
+  justify-content: center;
+  .list {
+
+    li {
+      display: inline;
+    }
+    a {
+      margin-left: 1em;
+      font-size: 1.2em;
+      vertical-align: middle;
+      &:hover {
+        color: #B49776;
+      }
+    }
+  }
+}

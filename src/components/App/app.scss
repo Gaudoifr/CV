@@ -1,0 +1,28 @@
+.allpage {
+  display: flex;
+  margin: auto;
+  width: 100vw;
+  font-family: 'Teko', sans-serif;
+  background: url('../Header/back2.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: white;
+  .app {
+    flex: 0 0 auto;
+    margin-right: 1em;
+    border-left: 1px solid #DFDFDF;
+    width: 78vw;
+  }
+}
+
+@media(max-width: 750px) {
+  .allpage {
+    .app {
+      flex: 0 0 auto;
+      border-left:none;
+      width: 100vw;
+      margin-right: 0;
+    }
+  }  
+}

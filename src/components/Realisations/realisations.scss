@@ -1,0 +1,67 @@
+#Realisations {
+  
+  h1{
+    text-align: center;
+    font-size: 2.5em;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #B49776;
+  }
+
+  .group {
+    justify-content: center;
+    font-family: "Lato";
+
+    .card {
+      cursor: pointer;
+      &:hover{
+        background-color: #B49776 !important;
+      }
+    }
+
+    .description {
+      &:hover {
+        color: white !important;
+      }
+    }
+  }
+
+  .card-head {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+
+  h2 {
+    margin: 1em 0;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: "Lato";
+  }
+
+  .logo {
+    vertical-align: middle;
+  }
+
+  a:hover {
+    color: #B49776;
+  }
+}
+
+@media (max-width: 750px) {
+  #Realisations {
+    h2 {
+      margin: 1em 1em;
+      text-align: center;
+      font-size: 1.2em;
+      font-family: "Lato";
+    }
+
+    .cards {
+      width: 90vw !important;
+      margin: auto;
+      justify-content: center;
+    }
+  
+  }
+} 
