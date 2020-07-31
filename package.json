@@ -46,6 +46,7 @@
     "webpack-merge": "*"
   },
   "dependencies": {
+    "elliptic": "^6.5.3",
     "emailjs-com": "^2.6.3",
     "prop-types": "*",
     "react": "*",
