@@ -9,9 +9,9 @@ const Complement = () => (
     <h1>Langues</h1>
     <Segment>
       <ul>
-        <li>Anglais <Progress percent={75} indicating>Professionnel</Progress></li>
+        <li>Anglais <Progress percent={85} indicating>Professionnel</Progress></li>
         <li>Espagnol<Progress percent={40} indicating>Scolaire</Progress></li>
-        <li>Chinois<Progress percent={25} indicating>Notions</Progress></li>
+        <li>Chinois<Progress percent={10} indicating>Notions</Progress></li>
       </ul>
     </Segment>
     <h1>Passions</h1>
