@@ -22,7 +22,6 @@ const Contact = ({
   submittedForm,
   resetSubmitted,
 }) => {
-
   const changeValue = (evt) => {
     handleChange(evt.target.value, evt.target.name);
   };
@@ -54,21 +53,23 @@ const Contact = ({
       {submitted && (
         <Message>Merci pour cet envoi, je vous répondrai rapidement.</Message>
       )}
-      <Form.Group widths='equal'>
+      <Form.Group widths="equal">
         <Form.Field
           control={Input}
-          label='Votre adresse email :'
-          placeholder='email...'
+          label="Votre adresse email :"
+          placeholder="email..."
           onChange={changeValue}
           name="email"
+          value={email}
         />
       </Form.Group>
       <Form.Field
         control={TextArea}
-        label='Message'
-        placeholder='Ecrivez votre message...'
+        label="Message"
+        placeholder="Ecrivez votre message..."
         onChange={changeValue}
         name="content"
+        value={content}
       />
 
       <Form.Field

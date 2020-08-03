@@ -51,6 +51,7 @@
     "prop-types": "*",
     "react": "*",
     "react-burger-menu": "^2.7.1",
+    "react-coverflow": "^0.2.20",
     "react-dom": "*",
     "react-redux": "^7.2.1",
     "redux": "^4.0.5",
