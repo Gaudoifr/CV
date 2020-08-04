@@ -22,7 +22,7 @@ const Formation = () => (
     <div id="Competences">
       <h1>Compétences</h1>
       <div className="comp-list">
-        <ScrollAnimation animateIn="fadeIn">
+        <ScrollAnimation animateOnce animateIn="fadeInUp">
           <Card.Group>
             <Card>
               <Card.Content>
@@ -113,7 +113,7 @@ const Formation = () => (
     <div className="formation">
       <h1>Formation</h1>
       <div className="list-formations">
-        <ScrollAnimation animateIn='bounceInRight'>
+        <ScrollAnimation animateOnce animateIn='bounceInRight'>
           <Card className="format">
             <Card.Content>
               <Image
