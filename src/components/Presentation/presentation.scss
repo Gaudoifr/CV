@@ -28,7 +28,7 @@
         .description {
           margin-top: 1em;
           background-color: #B49776;
-          color: black;
+          text-shadow: 1px 1px 1px black;
           text-align: center;
           line-height: 1.2em;
         }
@@ -40,6 +40,7 @@
     display: block;
     text-align: center;
     .portrait-img {
+    border: 1px solid #B49776;
     width: 20vw;
     margin: auto !important;
     border-radius: 5px;

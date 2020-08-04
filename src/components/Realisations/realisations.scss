@@ -9,11 +9,8 @@
     color: #B49776;
   }
 
-  .group {
-    justify-content: center;
-    font-family: "Lato";
-
     .card {
+      margin: auto;
       cursor: pointer;
       &:hover{
         background-color: #B49776 !important;
@@ -25,7 +22,6 @@
         color: white !important;
       }
     }
-  }
 
   .card-head {
     font-weight: bold;
@@ -45,6 +41,11 @@
 
   a:hover {
     color: #B49776;
+  }
+
+  .slider {
+    width: 50vw;
+    margin: auto;
   }
 }
 
